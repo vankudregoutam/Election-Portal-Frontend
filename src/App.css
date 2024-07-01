@@ -1,0 +1,383 @@
+.App {
+  font-family: system-ui;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #3c99fd;
+}
+
+.flex1 {
+  flex-wrap: wrap;
+}
+
+.forms {
+  background-color: #19567C;
+  color: white;
+  margin-left: -12px;
+  margin-right: -12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+
+.services {
+  margin-top: -68.19%;
+  margin-left: 60%;
+  margin-right: 1%;
+  width: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.heading {
+  background-color: #19567C;
+  color: white;
+  margin-left: -12px;
+  margin-right: -12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+
+.col-md-8 {
+  margin-left: 20px;
+  position: absolute;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.col-md-9 {
+  position: absolute;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.col-md-10 {
+  margin-right: auto;
+  position: absolute;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.card-form-6 {
+  background-color: rgba(135, 206, 250, 0.2);
+  border: 1px solid rgba(43, 238, 137, .34);
+  box-shadow: 0 0 10px #bdbdbd;
+  /* box-sizing: border-box; */
+  width: auto;
+}
+
+.card-form-6A {
+  background-color: rgba(144, 238, 144, 0.42);
+  border: 1px solid rgba(107, 145, 239, .34);
+  box-shadow: 0 0 10px #bdbdbd;
+  /* box-sizing: border-box; */
+  width: auto;
+}
+
+.card-form-7 {
+  background-color: rgba(255, 250, 205, 0.55);
+  border: 1px solid rgba(204, 66, 66, .34);
+  box-shadow: 0 0 10px #bdbdbd;
+  /* box-sizing: border-box; */
+  width: auto;
+}
+
+.card-form-8 {
+  background-color: rgba(255, 215, 0, 0.34);
+  border: 1px solid rgba(227, 144, 68, .34);
+  box-shadow: 0 0 10px #bdbdbd;
+  /* box-sizing: border-box; */
+  width: auto;
+}
+
+.card-form-6B {
+  background-color: rgba(138, 249, 193, 0.2);
+  border: 1px solid rgba(227, 144, 68, .34);
+  box-shadow: 0 0 10px #bdbdbd;
+  /* box-sizing: border-box; */
+  width: auto;
+}
+
+.card-form-M {
+  background-color: rgba(255, 209, 230);
+  border: 1px solid rgba(43, 238, 137, .34);
+  box-shadow: 0 0 10px #bdbdbd;
+  /* box-sizing: border-box; */
+  width: auto;
+}
+
+.card-form-12C {
+  background-color: rgba(238, 238, 238);
+  border: 1px solid rgba(107, 145, 239, .34);
+  box-shadow: 0 0 10px #bdbdbd;
+  /* box-sizing: border-box; */
+  width: auto;
+}
+
+.services-width {
+  width: 47%;
+}
+
+.services-width-poll-station {
+  width: 97%;
+}
+
+.margin {
+  margin-left: -15px;
+}
+
+.flex {
+  flex-wrap: wrap;
+}
+
+.img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.2);
+}
+
+.zoom-effect {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.04);
+}
+
+.underline {
+  border-bottom: 1px solid #00000033;
+  height: 2px;
+  margin-left: 60%;
+  margin-right: 1%;
+  width: auto;
+}
+
+.darkModeHr,
+.darkModeUnderline {
+  background-color: #fff;
+}
+
+.helpline {
+  margin-left: 59%;
+  width: auto;
+}
+
+.helpline-title {
+  flex-wrap: wrap;
+  display: inline;
+  position: absolute;
+  color: black;
+  text-decoration: solid;
+}
+
+.padding {
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.contact {
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.contact-us-desp {
+  color: rgba(0, 0, 0, .87);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .02em;
+  line-height: 16px;
+}
+
+.update {
+  margin-top: -33.85%;
+  margin-left: 60%;
+  margin-right: 1%;
+  width: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.about-eci {
+  margin-top: 1.5%;
+  margin-left: 60%;
+  margin-right: 1%;
+  width: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.footer-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mobileapp {
+  margin-left: 15px;
+  max-width: 58%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.hr {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .services {
+    margin-top: -230.22%;
+    margin-left: 61%;
+    margin-right: 1%;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .hr {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 61%;
+  }
+
+  .update {
+    margin-top: -120.50%;
+    margin-left: 61%;
+    margin-right: 1%;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .about-eci {
+    margin-top: 1.5%;
+    margin-left: 61%;
+    margin-right: 1%;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .footer {
+    margin-top: 25%;
+  }
+}
+
+/*
+Add these media queries for responsiveness
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .col-md-8 {
+    margin-left: 0;
+    position: relative; Change position to relative
+  }
+}
+
+Additional styling for smaller screens
+@media (max-width: 576px) {
+  .forms {
+    font-size: 18px;
+  }
+  .card {
+    width: 100%; Make cards take full width on smaller screens
+    margin: 10px 0;
+  }
+}
+
+Adjustments for very small screens
+@media (max-width: 360px) {
+  .forms {
+    font-size: 16px;
+  }
+}
+*/
+
+/* Add this media query for smaller devices
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    border-radius: 0;
+  }
+  
+  .forms {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+  
+  .card-form-6, .card {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .col-md-8 {
+    margin-left: 0;
+    position: relative;
+  }
+}
+
+Adjustments for medium-sized devices
+@media (min-width: 769px) and (max-width: 992px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+Adjustments for large devices
+@media (min-width: 993px) {
+  .container {
+    max-width: 56%;
+  }
+} */
