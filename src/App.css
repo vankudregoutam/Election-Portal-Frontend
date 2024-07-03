@@ -55,7 +55,6 @@
   font-size: 25px;
   color: white;
   display: flex;
-  font-weight: bold;
 }
 
 .navbar-button:hover {
@@ -325,6 +324,7 @@
   .navbar-button {
     margin-left: -300%;
   }
+
   .services {
     margin-top: -228.22%;
     margin-left: 61%;
@@ -387,92 +387,130 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar-img {
+    margin-left: -5%;
+  }
+
+  .navbar-brand {
+    font-size: 12px;
+  }
+
+  .navbar-button {
+    margin-left: -420%;
+  }
+
+  .navbar-collapse {
+    /* margin-left: 10%; */
+  }
+
   .form-container {
     max-width: 91.5%;
   }
+
   .card-form-6 {
     width: 95%;
     font-size: 12px;
   }
+
   .card-form-6A {
     width: 96%;
     font-size: 12px;
   }
+
   .card-form-7 {
     width: 95%;
     font-size: 12px;
   }
+
   .card-form-8 {
     width: 95%;
     font-size: 12px;
   }
+
   .card-form-6B {
     width: 95%;
     font-size: 12px;
   }
+
   .card-form-M {
     width: 95%;
     font-size: 12px;
   }
+
   .card-form-12C {
     width: 95%;
     font-size: 12px;
   }
+
   .services {
     margin-top: 0%;
     margin-left: 4.5%;
     margin-right: 4%;
   }
+
   .services-width {
     width: 95%;
     font-size: 14px;
   }
+
   .services-width-poll-station {
     width: 95%;
   }
+
   .darkModeHr,
   .darkModeUnderline {
     background-color: #fff;
     margin-left: 4%;
     margin-right: 4%;
   }
+
   .helpline {
     margin-left: 0%;
   }
+
   .helpline-title {
     font-size: 12px;
     width: 100%;
   }
+
   .helpline-link {
     font-size: 12px;
   }
+
   .hr {
     margin-top: -30%;
   }
+
   .mobileapp {
     max-width: 91%;
   }
+
   .contact-container {
     max-width: 91%;
   }
+
   .update {
     margin-top: 0%;
     margin-left: 4%;
     margin-right: 4.5%;
   }
+
   .elections {
     width: 100%;
     font-size: 14px;
   }
+
   .election-results {
     width: 100%;
     font-size: 14px;
   }
+
   .about-eci {
     margin-left: 4%;
     margin-right: 4.5%;
     font-size: 14px;
   }
+
   .img-footer {
     display: flex;
     margin-left: -25%;
