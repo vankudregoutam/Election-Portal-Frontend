@@ -32,6 +32,14 @@
 
 .flex1 {
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-container {
+  margin-left: 15px;
+  max-width: 58%;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .forms {
@@ -128,7 +136,7 @@
   border: 1px solid rgba(227, 144, 68, .34);
   box-shadow: 0 0 10px #bdbdbd;
   /* box-sizing: border-box; */
-  width: auto;
+  width: 97.5%;
 }
 
 .card-form-M {
@@ -136,7 +144,7 @@
   border: 1px solid rgba(43, 238, 137, .34);
   box-shadow: 0 0 10px #bdbdbd;
   /* box-sizing: border-box; */
-  width: auto;
+  width: 420px;
 }
 
 .card-form-12C {
@@ -144,7 +152,7 @@
   border: 1px solid rgba(107, 145, 239, .34);
   box-shadow: 0 0 10px #bdbdbd;
   /* box-sizing: border-box; */
-  width: auto;
+  width: 420px;
 }
 
 .services-width {
@@ -153,6 +161,7 @@
 
 .services-width-poll-station {
   width: 97%;
+  background-color: #992b81cc;
 }
 
 .margin {
@@ -211,18 +220,22 @@
   padding-left: 15px;
 }
 
+.contact-container {
+  margin-left: 15px;
+  max-width: 58%;
+  border-radius: 10px;
+  background-color: white;
+}
+
 .contact {
   padding-top: 25px;
   padding-left: 15px;
 }
 
 .contact-us-desp {
-  color: rgba(0, 0, 0, .87);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: .02em;
-  line-height: 16px;
+  width: auto;
+  border: none;
+  margin-left: 15px;
 }
 
 .update {
@@ -232,6 +245,18 @@
   width: auto;
   background-color: white;
   border-radius: 10px;
+}
+
+.elections {
+  width: 45%;
+  height: 60%;
+  border: none;
+}
+
+.election-results {
+  width: 55%;
+  height: 60%;
+  border: none;
 }
 
 .about-eci {
@@ -273,12 +298,22 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .services {
-    margin-top: -230.22%;
+    margin-top: -228.22%;
     margin-left: 61%;
     margin-right: 1%;
     width: auto;
+    height: auto;
     background-color: white;
     border-radius: 10px;
+  }
+
+  .services-width {
+    width: 94%;
+  }
+
+  .services-width-poll-station {
+    width: 94%;
+    height: 90%;
   }
 
   .hr {
@@ -287,13 +322,26 @@
     margin-top: 61%;
   }
 
+  .card-form-6B {
+    width: 95%;
+  }
+
   .update {
-    margin-top: -120.50%;
+    margin-top: -119.5%;
     margin-left: 61%;
     margin-right: 1%;
     width: auto;
     background-color: white;
     border-radius: 10px;
+  }
+
+  .elections {
+    width: auto;
+  }
+
+  .election-results {
+    width: auto;
+    height: auto;
   }
 
   .about-eci {
@@ -310,74 +358,95 @@
   }
 }
 
-/*
-Add these media queries for responsiveness
-@media (max-width: 768px) {
-  .container {
-    margin-left: 0;
-    max-width: 100%;
+@media screen and (max-width: 768px) {
+  .form-container {
+    max-width: 91.5%;
   }
-  .col-md-8 {
-    margin-left: 0;
-    position: relative; Change position to relative
+  .card-form-6 {
+    width: 95%;
+    font-size: 12px;
   }
-}
-
-Additional styling for smaller screens
-@media (max-width: 576px) {
-  .forms {
-    font-size: 18px;
+  .card-form-6A {
+    width: 96%;
+    font-size: 12px;
   }
-  .card {
-    width: 100%; Make cards take full width on smaller screens
-    margin: 10px 0;
+  .card-form-7 {
+    width: 95%;
+    font-size: 12px;
   }
-}
-
-Adjustments for very small screens
-@media (max-width: 360px) {
-  .forms {
-    font-size: 16px;
+  .card-form-8 {
+    width: 95%;
+    font-size: 12px;
   }
-}
-*/
-
-/* Add this media query for smaller devices
-@media (max-width: 768px) {
-  .container {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100%;
-    border-radius: 0;
+  .card-form-6B {
+    width: 95%;
+    font-size: 12px;
   }
-  
-  .forms {
-    margin-left: 0;
-    margin-right: 0;
-    border-radius: 0;
+  .card-form-M {
+    width: 95%;
+    font-size: 12px;
   }
-  
-  .card-form-6, .card {
+  .card-form-12C {
+    width: 95%;
+    font-size: 12px;
+  }
+  .services {
+    margin-top: 0%;
+    margin-left: 4.5%;
+    margin-right: 4%;
+  }
+  .services-width {
+    width: 95%;
+    font-size: 14px;
+  }
+  .services-width-poll-station {
+    width: 95%;
+  }
+  .darkModeHr,
+  .darkModeUnderline {
+    background-color: #fff;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .helpline {
+    margin-left: 0%;
+  }
+  .helpline-title {
+    font-size: 12px;
     width: 100%;
-    margin: 0;
   }
-  
-  .col-md-8 {
-    margin-left: 0;
-    position: relative;
+  .helpline-link {
+    font-size: 12px;
+  }
+  .hr {
+    margin-top: -30%;
+  }
+  .mobileapp {
+    max-width: 91%;
+  }
+  .contact-container {
+    max-width: 91%;
+  }
+  .update {
+    margin-top: 0%;
+    margin-left: 4%;
+    margin-right: 4.5%;
+  }
+  .elections {
+    width: 100%;
+    font-size: 14px;
+  }
+  .election-results {
+    width: 100%;
+    font-size: 14px;
+  }
+  .about-eci {
+    margin-left: 4%;
+    margin-right: 4.5%;
+    font-size: 14px;
+  }
+  .img-footer {
+    display: flex;
+    margin-left: -25%;
   }
 }
-
-Adjustments for medium-sized devices
-@media (min-width: 769px) and (max-width: 992px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-Adjustments for large devices
-@media (min-width: 993px) {
-  .container {
-    max-width: 56%;
-  }
-} */

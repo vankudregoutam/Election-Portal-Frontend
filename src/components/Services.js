@@ -46,7 +46,7 @@ const Services = () => {
                             </div><br /><br /><br />
                         </div>
                     </div>
-                    <div className="card services-width-poll-station zoom-effect col-6 m-2" style={{ backgroundColor: '#992b81cc' }}>
+                    <div className="card services-width-poll-station zoom-effect col-6 m-2" style={{ height: '200px' }}>
                         <div className="card-body">
                             <img className='margin' src="/img/KnowBoothIcon.svg" style={{ height: 50 }} alt="" />
                             <div className='col-md-9' style={{ color: 'white' }}>
@@ -64,7 +64,7 @@ const Services = () => {
                     <Link to={'https://voters.eci.gov.in/HomePageFaq'} target='_blank'>
                         <div className="card-body">
                             <img className='m-2' src="/img/faqIconQuestionMark.svg" style={{ height: 50 }} alt="" />
-                            <div className='m-3 helpline-title'>
+                            <div className='my-3 helpline-title'>
                                 <p>Frequently asked questions <BiUpArrowAlt /></p>
                             </div>
                         </div>
@@ -75,8 +75,8 @@ const Services = () => {
                 <div className="card m-1" style={{ border: 'none' }}>
                     <div className="card-body">
                         <img className='m-2' src="/img/election-logo.jpeg" style={{ height: 50 }} alt="" />
-                        <div className='m-3 helpline-title'>
-                            <p>Visit ECI Website : <Link to={'https://eci.gov.in'} target='_blank'><button className='btn btn' style={{color: '#007bff'}}>https://eci.gov.in</button></Link></p>
+                        <div className='my-3 helpline-title'>
+                            <p>Visit ECI Website : <Link to={'https://eci.gov.in'} target='_blank'><button className='btn btn helpline-link' style={{ color: '#007bff' }}>ECI</button></Link></p>
                         </div>
                     </div>
                 </div>
@@ -85,8 +85,8 @@ const Services = () => {
                 <div className="card m-1" style={{ border: 'none' }}>
                     <div className="card-body">
                         <img className='m-2' src="/img/generalelections.png" style={{ height: 50 }} alt="" />
-                        <div className='m-3 helpline-title'>
-                            <p>General Elections 2024 : <Link to={'https://elections24.eci.gov.in'} target='_blank'><button className='btn btn' style={{color: '#007bff'}}>https://elections24.eci.gov.in</button></Link></p>
+                        <div className='my-3 helpline-title'>
+                            <p>General Elections 2024 : <Link to={'https://elections24.eci.gov.in'} target='_blank'><button className='btn btn helpline-link' style={{ color: '#007bff' }}>ECI Gov</button></Link></p>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Form = () => {
     return (
         <>
-            <div className="container mb-3" style={{ marginLeft: '15px', maxWidth: '58%', borderRadius: 10, backgroundColor:'white' }}>
+            <div className="container form-container mb-3">
                 <h2 className='forms'>Forms</h2>
                 <div className="row flex1 mb-3">
                     <div className="card card-form-6 col-6 m-2">
@@ -29,7 +29,7 @@ const Form = () => {
                                 <p>Fill Form 6A if you are a citizen of India and has not acquired citizenship of any other country.</p>
                             </div><br /><br /><br />
                             <button className='btn btn my-3' style={{ backgroundColor: '#6b91ef', color: 'white' }}>Fill Form 6A <BiUpArrowAlt /></button>
-                            <button className='btn btn mx-1'><BiArrowToBottom /><span className='mx-1' style={{ color: '#254289' }}>Download</span></button>
+                            <button className='btn btn '><BiArrowToBottom /><span className='mx-1' style={{ color: '#254289' }}>Download</span></button>
                             <Link to={'https://voters.eci.gov.in/guidelines/Form-6a_en.pdf'} target='_blank'><button className="btn btn" style={{ color: '#06f' }}>Guidelines<BiUpArrowAlt /></button></Link>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const Form = () => {
                             <Link to={'https://voters.eci.gov.in/guidelines/Form-8_en.pdf'} target='_blank'><button className="btn btn" style={{ color: '#06f' }}>Guidelines<BiUpArrowAlt /></button></Link>
                         </div>
                     </div>
-                    <div className="card card-form-6B col-6 m-2" style={{width: '96.5%'}}>
+                    <div className="card card-form-6B col-6 m-2">
                         <div className="card-body">
                             <img className='img' src="/img/form6B.svg" style={{ height: 89 }} alt="" />
                             <div className='col-md-8'>
@@ -65,12 +65,12 @@ const Form = () => {
                                 <p>Fill Form 6B to get Aadhaar and EPIC.</p>
                             </div><br />
                             <button className='btn btn my-3' style={{ backgroundColor: '#ebd548', color: 'white' }}>Fill Form 6B <BiUpArrowAlt /></button>
-                            <button className='btn btn mx-1'><BiArrowToBottom /><span className='mx-1' style={{ color: '#726721' }}>Download</span></button>
+                            <button className='btn btn '><BiArrowToBottom /><span className='mx-1' style={{ color: '#726721' }}>Download</span></button>
                         </div>
                     </div>
-                    <div className="card card-form-M col-6 m-2" style={{width: 420}}>
+                    <div className="card card-form-M col-6 m-2">
                         <div className="card-body">
-                            <img className='img' src="/img/form8.svg" style={{ height: 89 }} alt="" />
+                            <img className='img' src="/img/formM.svg" style={{ height: 89 }} alt="" />
                             <div className='col-md-8'>
                                 <p><b>Form M</b></p>
                                 <p>This form is for the Migrant Electors of Kashmir who want to cast vote from any one special polling station of Delhi, Jammu and Udhampur.</p>
@@ -78,7 +78,7 @@ const Form = () => {
                             <button className='btn btn mx-1'><BiArrowToBottom /><span className='mx-1'>Download</span></button>
                         </div>
                     </div>
-                    <div className="card card-form-12C col-6 m-2" style={{width: 420}}>
+                    <div className="card card-form-12C col-6 m-2">
                         <div className="card-body">
                             <img className='img' src="/img/form12C.svg" style={{ height: 89 }} alt="" />
                             <div className='col-md-8'>
