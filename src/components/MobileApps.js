@@ -33,9 +33,9 @@ const MobileApps = () => {
                     </div>
                     <div className="card col-md-3 col-sm-6" style={{ width: 'auto', border: 'none' }}>
                         <div className="card-body">
-                            <img className='m-2 px-1' src="/img/voterTurnoutAppIconNew.svg" alt="" />
-                            <p className='mx-2'>Voter Turnout App</p>
-                            <Link to={'https://play.google.com/store/apps/details?id=in.gov.eci.pollturnout'} target='_blank'><img className='px-3' src="/img/androidLogoNewIcon.svg" alt="" /></Link>
+                            <img className='m-2 px-3' src="/img/voterTurnoutAppIconNew.svg" alt="" />
+                            <p>Voter Turnout App</p>
+                            <Link to={'https://play.google.com/store/apps/details?id=in.gov.eci.pollturnout'} target='_blank'><img className='px-4' src="/img/androidLogoNewIcon.svg" alt="" /></Link>
                             <Link to={'https://apps.apple.com/us/app/voter-turnout-app/id1536366882'} target='_blank'><img src="/img/appleLogoNewIcon.svg" alt="" /></Link>
                         </div>
                     </div>
